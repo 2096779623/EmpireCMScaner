@@ -12,5 +12,4 @@ python3 EmpireCMScaner.py
 
 # ScreenShot
 
-![image](https://user-images.githubusercontent.com/57583560/160227916-8f7b1531-e45c-41a1-9ddf-c3fd0e1dac49.png)
-
+![image](https://user-images.githubusercontent.com/57583560/160227994-9cf3964f-57cc-4ee7-a1de-4ca74ade2868.png)
