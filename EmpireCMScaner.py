@@ -63,11 +63,11 @@ $$$$$$$$\ $$ | $$ | $$ |$$$$$$$  |$$ |$$ |      \$$$$$$$\ \$$$$$$  |$$ | \_/ $$ 
     '''
     
     help = '''
-    Usage: python3 EmpireCMScan.py [-u] [--ehash]
+    Usage: python3 EmpireCMScaner.py [-u] [--ehash]
     -u [url]
-    Example: python3 EmpireCMScan.py -u https://example.com
+    Example: python3 EmpireCMScaner.py -u https://example.com
     --ehash [ehash]                     https://www.freebuf.com/vuls/176313.html
-    Example: python3 EmpireCMScan.py -u https://example.com --ehash ehash_f9Tj7=ZMhwowHjtSwqyRuiOylK
+    Example: python3 EmpireCMScaner.py -u https://example.com --ehash ehash_f9Tj7=ZMhwowHjtSwqyRuiOylK
     '''
 
     print(text)
