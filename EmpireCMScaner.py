@@ -11,7 +11,7 @@ def robots(url):
 
 def searchxss(url):
     x = "><script>alert(/xxxxdd/)</script>"
-    data = requests.get("https://www.huorong.cn/search/keyword/index.php?allsame=3\" + x")
+    data = requests.get(url + "search/keyword/index.php?allsame=3\" + x")
     data = str(data.text)
     if "xxxxdd" in data:
         print ("[search.php] %s" % url)
